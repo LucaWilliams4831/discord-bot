@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+
+    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDir": ".",
+
+    "types": ["jest", "node"],
+    "lib": ["esnext"],
+
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "removeComments": true,
+    "downlevelIteration": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["*.ts", "**/*.ts", "**/*.tsx", "next.config.js"],
+  "exclude": ["node_modules", "dist"]
+}
